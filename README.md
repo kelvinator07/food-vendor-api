@@ -4,7 +4,7 @@
 
 ### This application uses Swagger UI and H2 database all configured for easy testing just open this URL `http://localhost:8080/swagger-ui.html` after running application to test end Points
     
-Use this login details if you get a prompt... User: `Kelvin1` Password: `password-hash`.
+Use this login details if you get a prompt... User: `kelvinator` Password: `password-hash`.
 
 
 1. Clone this repository and open in your favourite IDE.

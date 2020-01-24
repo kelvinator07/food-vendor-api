@@ -27,7 +27,7 @@ public class ByteworksFoodVendorApiApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(new User("Kelvinator","Kelvin", "Geek", "kel1@gmail.com", "$2a$12$LtbYtEzOBdnsiD/E9Wtj2Oz3852iKtnYWDpXNgKsWBpfXshoURT1K", new Date(), "08091714477"));
+		userRepository.save(new User("kelvinator","Kelvin", "Geek", "kel1@gmail.com", "$2a$12$LtbYtEzOBdnsiD/E9Wtj2Oz3852iKtnYWDpXNgKsWBpfXshoURT1K", new Date(), "08091714477"));
         mealRepository.save(new Meal("Rice", 500.0));
         mealRepository.save(new Meal("Beans", 500.0));
         mealRepository.save(new Meal("Chicken", 900.0));
