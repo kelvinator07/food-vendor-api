@@ -1,0 +1,20 @@
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    show-sql: false
+
+  security:
+    user:
+      name: user
+      password: 12345
+
+swagger:
+  enabled: true
+  deepLinking: true
+
+support:
+  email: support@byteworks.com
