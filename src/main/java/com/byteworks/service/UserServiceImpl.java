@@ -1,6 +1,6 @@
 package com.byteworks.service;
 
-import com.byteworks.Response.UserResponse;
+import com.byteworks.response.UserResponse;
 import com.byteworks.dto.UserDto;
 import com.byteworks.exception.UserAlreadyExistsException;
 import com.byteworks.exception.UserNotFoundException;
