@@ -1,4 +1,4 @@
-package com.byteworks.Response;
+package com.byteworks.response;
 
 
 public class UserResponse {
