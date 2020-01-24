@@ -1,6 +1,6 @@
 package com.byteworks.controller;
 
-import com.byteworks.Response.UserResponse;
+import com.byteworks.response.UserResponse;
 import com.byteworks.dto.UserDto;
 import com.byteworks.model.User;
 import com.byteworks.service.UserService;

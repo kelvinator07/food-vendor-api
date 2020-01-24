@@ -1,6 +1,6 @@
 package com.byteworks.controller;
 
-import com.byteworks.Response.OrderResponse;
+import com.byteworks.response.OrderResponse;
 import com.byteworks.dto.OrderDto;
 import com.byteworks.model.Meal;
 import com.byteworks.model.Order;
