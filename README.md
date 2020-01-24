@@ -2,10 +2,15 @@
 
 ## Setup Instructions
 
+### This application uses Swagger UI and H2 database all configured for easy testing just open this URL `http://localhost:8080/swagger-ui.html` after running application to test end Points
+    
+Use this login details if you get a prompt... User: `Kelvin1` Password: `password-hash`.
+
+
 1. Clone this repository and open in your favourite IDE.
 
 
-2. Open an `application.properties` file under the resources directory.
+2. Open the `application.properties` file under the resources directory.
 
     Replace properties for `spring.mail.username` to your email and `spring.mail.password` to your password respectively.
 
@@ -50,12 +55,12 @@
    
        
    ```
-   insert into meal (id, name, price) values (1, 'Rice', 500);
-   insert into meal (id, name, price) values (2, 'Beans', 200);
-   insert into meal (id, name, price) values (3, 'Chicken', 900);
-   insert into meal (id, name, price) values (4, 'Yam', 300);
-   insert into meal (id, name, price) values (5, 'Amala', 400);
-   insert into meal (id, name, price) values (6, 'Salad', 300);
+   insert into meal (id, name, price) values (1, 'Rice', 500.0);
+   insert into meal (id, name, price) values (2, 'Beans', 200.0);
+   insert into meal (id, name, price) values (3, 'Chicken', 900.0);
+   insert into meal (id, name, price) values (4, 'Yam', 300.0);
+   insert into meal (id, name, price) values (5, 'Amala', 400.0);
+   insert into meal (id, name, price) values (6, 'Salad', 300.0);
    ```
 
 ## API Endpoints
